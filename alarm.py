@@ -13,7 +13,7 @@ def alarm(seconds):
         minutes_left = time_left // 60 #125 // 60 = 2
         seconds_left = time_left % 60 #125 % 60 = 5
 
-        print(f"{minutes_left}:{seconds_left}")
+        print(f"{minutes_left:02d}:{seconds_left:02d}")
 
 
 
